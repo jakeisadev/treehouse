@@ -111,9 +111,8 @@ header .profile-image:hover {
 }
 
 .card-title {
-  border: solid 4px black;
   text-align: center;
-  border-radius: 8px;
+  text-decoration: underline;
 }
 .card:hover {
   border-color: orangered;

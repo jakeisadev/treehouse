@@ -107,12 +107,14 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all 0.1s;
   border: 2px groove;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 25em));
 }
 
 .card-title {
-  border: solid 4px black;
   text-align: center;
-  border-radius: 8px;
+  text-decoration: underline;
 }
 .card:hover {
   border-color: orangered;
@@ -187,6 +189,11 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Styles for larger screens */
